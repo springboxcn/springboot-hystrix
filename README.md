@@ -2,3 +2,7 @@
 First knowledge about hystrix
 
 - [Netflix/Hystrix](https://github.com/Netflix/Hystrix)
+
+## LICENSE
+
+![](LICENSE.png)
