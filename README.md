@@ -19,6 +19,8 @@ First knowledge about hystrix
 
 - [hystrix dashboard Unable to connect to Command Metric Stream解决办法](https://www.cnblogs.com/mark7/p/8920288.html)
 
+- [hystrix_clients_doc官方文档](http://cloud.spring.io/spring-cloud-netflix/multi/multi__circuit_breaker_hystrix_clients.html)
+
 ## LICENSE
 
 ![](LICENSE.png)
