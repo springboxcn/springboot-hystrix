@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/client/client.iml" filepath="$PROJECT_DIR$/client/client.iml" />
       <module fileurl="file://$PROJECT_DIR$/simple-hystrix/simple-hystrix.iml" filepath="$PROJECT_DIR$/simple-hystrix/simple-hystrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-hystrix.iml" filepath="$PROJECT_DIR$/springboot-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-hystrix/springcloud-hystrix.iml" filepath="$PROJECT_DIR$/springcloud-hystrix/springcloud-hystrix.iml" />
     </modules>
   </component>
 </project>

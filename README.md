@@ -17,6 +17,7 @@ First knowledge about hystrix
 - `observe()` 订阅表示来自依赖项的响应的 Observable，并返回一个 Observable，它复制该源 Observable
 - `toObservable()` 返回一个 Observable，当您订阅它时，将执行 Hystrix 命令并发出其响应
 
+- [hystrix dashboard Unable to connect to Command Metric Stream解决办法](https://www.cnblogs.com/mark7/p/8920288.html)
 
 ## LICENSE
 

@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="client" />
         <module name="simple-hystrix" />
+        <module name="springcloud-hystrix" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="client" target="1.8" />
       <module name="simple-hystrix" target="1.8" />
+      <module name="springcloud-hystrix" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
