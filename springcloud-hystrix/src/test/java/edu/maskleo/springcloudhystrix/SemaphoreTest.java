@@ -25,7 +25,7 @@ public class SemaphoreTest {
             Random r = new Random();
             try {
                 System.out.println(Thread.currentThread().getName() + " begin working!");
-                if (semaphore.tryAcquire(1, TimeUnit.SECONDS)) {
+                if (semaphore.tryAcquire(1, 1L, TimeUnit.SECONDS)) {
                     Thread.sleep(r.nextInt(100000));
                     timeout = false;
                     count.getAndIncrement();
