@@ -1,6 +1,7 @@
 package edu.maskleo.springcloudhystrix.service;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
 import org.springframework.stereotype.Component;
 
 import java.util.Random;
@@ -21,7 +22,13 @@ public class CallDependencyService {
      *
      * @return
      */
-    @HystrixCommand(fallbackMethod = "fallback")
+    @HystrixCommand(fallbackMethod = "fallback",
+            commandProperties = {
+                    @HystrixProperty(name = "", value = ""),
+                    @HystrixProperty(name = "", value = ""),
+                    @HystrixProperty(name = "", value = "")
+            }
+    )
     public String mockGetUserInfo() {
         count.getAndIncrement();
         int randomInt = random.nextInt(10);
