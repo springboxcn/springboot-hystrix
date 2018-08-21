@@ -37,6 +37,8 @@ management.endpoints.web.exposure.include=hystrix.stream
 `http://localhost:8080/actuator/hystrix.stream`  
 
 
+[限流-降级](https://blog.csdn.net/lindan1984/article/details/79321772)
+
 ## LICENSE
 
 ![](LICENSE.png)
