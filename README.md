@@ -19,6 +19,24 @@ First knowledge about hystrix
 
 - [hystrix dashboard Unable to connect to Command Metric Stream解决办法](https://www.cnblogs.com/mark7/p/8920288.html)
 
+- [hystrix_clients_doc官方文档](http://cloud.spring.io/spring-cloud-netflix/multi/multi__circuit_breaker_hystrix_clients.html)
+
+
+
+## FAQ
+
+添加如下配置
+
+```properties
+management.endpoints.web.exposure.include=hystrix.stream
+```
+
+访问 `http://localhost:8080/hystrix`
+
+参考[官方说明](http://cloud.spring.io/spring-cloud-netflix/multi/multi__circuit_breaker_hystrix_clients.html#_hystrix_metrics_stream) 填入 
+`http://localhost:8080/actuator/hystrix.stream`  
+
+
 ## LICENSE
 
 ![](LICENSE.png)
