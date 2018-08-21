@@ -19,7 +19,7 @@ public class SpringcloudHystrixApplication {
         SpringApplication.run(SpringcloudHystrixApplication.class, args);
     }
 
-    @Bean
+    /*@Bean
     public ServletRegistrationBean getServlet() {
         HystrixMetricsStreamServlet streamServlet = new HystrixMetricsStreamServlet();
         ServletRegistrationBean registrationBean = new ServletRegistrationBean(streamServlet);
@@ -27,7 +27,7 @@ public class SpringcloudHystrixApplication {
         registrationBean.addUrlMappings("/hystrix.stream");
         registrationBean.setName("HystrixMetricsStreamServlet");
         return registrationBean;
-    }
+    }*/
 
     @Bean
     public RestTemplate restTemplate() {
